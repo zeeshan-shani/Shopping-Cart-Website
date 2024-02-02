@@ -353,7 +353,7 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Distribute items evenly */
+  justify-content: center; /* Distribute items evenly */
   padding-bottom: 5%; /* Adjust spacing as needed */
   border-bottom: 2px solid green; /* Border for visualization */
 }

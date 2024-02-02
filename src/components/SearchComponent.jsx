@@ -1,10 +1,9 @@
-//components/SearchComponent.js
-import React from 'react';
+import PropTypes from 'prop-types';
 
 function SearchComponent({ searchCourse, courseSearchUserFunction }) {
 	return (
 		<header className="App-header">
-			<h1>GeeksforGeeks Shopping Cart</h1>
+			<h1>Santa Dominica Puros Cigars</h1>
 			<div className="search-bar">
 				<input
 					type="text"
@@ -16,5 +15,11 @@ function SearchComponent({ searchCourse, courseSearchUserFunction }) {
 		</header>
 	);
 }
+
+// Define PropTypes
+SearchComponent.propTypes = {
+    searchCourse: PropTypes.string.isRequired,
+    courseSearchUserFunction: PropTypes.func.isRequired
+};
 
 export default SearchComponent;
